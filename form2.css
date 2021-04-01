@@ -1,0 +1,534 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-weight: 800;
+}
+.avenir-black-white-30px {
+  color: white;
+  font-family: "Avenir-Black", Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+}
+.avenir-heavy-normal-black-14px {
+  color: black;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-heavy-normal-white-12px {
+  color: white;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-heavy-normal-white-14px {
+  color: white;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-heavy-normal-white-15px {
+  color: var(--white);
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-heavy-normal-white-15px-2 {
+  color: white;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-medium-white-18px {
+  color: white;
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.border-1px-royal-blue {
+  border: 1px solid var(--royal-blue);
+}
+.border-class-1 {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.form-step2 {
+  -webkit-backdrop-filter: blur(15px) brightness(100%);
+  align-items: flex-end;
+  backdrop-filter: blur(15px) brightness(100%);
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  height: 693px;
+  padding: 43px 86px;
+  width: 1440px;
+}
+.form-step2 .advertising {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 96px;
+  text-align: center;
+}
+.form-step2 .astrology {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 88px;
+  text-align: center;
+}
+.form-step2 .business {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 69px;
+  text-align: center;
+}
+.form-step2 .close {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  min-height: 22px;
+  min-width: 41px;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+.form-step2 .current-affairs {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-top: 1px;
+  min-height: 38px;
+  min-width: 68px;
+  text-align: center;
+}
+.form-step2 .ellipse-2 {
+  height: 27px;
+  left: 189px;
+  position: absolute;
+  top: 2px;
+  width: 27px;
+}
+.form-step2 .ellipse-3 {
+  height: 21px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 21px;
+}
+.form-step2 .ellipse-3-1 {
+  height: 31px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 31px;
+}
+.form-step2 .ellipse-5 {
+  height: 15px;
+  margin-left: 3px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-1 {
+  height: 15px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-10 {
+  height: 15px;
+  margin-left: 1px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-2 {
+  height: 15px;
+  left: 3px;
+  position: absolute;
+  top: 0px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-3 {
+  height: 15px;
+  margin-left: 7px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-4 {
+  height: 15px;
+  margin-left: 5px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-5 {
+  height: 15px;
+  margin-left: 19px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-6 {
+  height: 15px;
+  margin-left: 23px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-7 {
+  height: 15px;
+  margin-left: 20px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-8 {
+  height: 15px;
+  margin-left: 17px;
+  width: 15px;
+}
+.form-step2 .ellipse-5-9 {
+  height: 15px;
+  margin-left: 10px;
+  width: 15px;
+}
+.form-step2 .entrepreneurship {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-left: 1px;
+  margin-top: 11px;
+  min-height: 16px;
+  min-width: 123px;
+  text-align: center;
+}
+.form-step2 .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 543px;
+  width: 1118px;
+}
+.form-step2 .flex-row {
+  align-items: center;
+  display: flex;
+  height: 543px;
+  margin-right: 6px;
+  margin-top: 8px;
+  min-width: 1218px;
+}
+.form-step2 .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 68.32px;
+  margin-top: 25px;
+  min-width: 404px;
+}
+.form-step2 .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 22px;
+  margin-right: 8px;
+  margin-top: 14px;
+  min-width: 818px;
+}
+.form-step2 .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  height: 33px;
+  margin-left: 25.78px;
+  margin-top: -1px;
+  min-width: 764px;
+}
+.form-step2 .frame-5 {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  height: 49px;
+  margin-left: 32px;
+  overflow: hidden;
+  padding: 0 72px;
+  width: 186px;
+}
+.form-step2 .frame-6 {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  height: 49px;
+  overflow: hidden;
+  padding: 0 56.5px;
+  width: 186px;
+}
+.form-step2 .group-23 {
+  align-items: flex-start;
+  align-self: flex-end;
+  display: flex;
+  margin-top: 8px;
+  min-width: 1056px;
+}
+.form-step2 .group-24 {
+  align-items: flex-start;
+  display: flex;
+  height: 87px;
+  left: 62px;
+  min-width: 1056px;
+  position: absolute;
+  top: 0px;
+}
+.form-step2 .group-5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 46.32px;
+  margin-top: 31px;
+  min-height: 68px;
+  width: 826px;
+}
+.form-step2 .language {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  margin-left: 100px;
+  min-height: 22px;
+  min-width: 71px;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+.form-step2 .looking-for {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  margin-left: 100px;
+  min-height: 22px;
+  min-width: 87px;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+.form-step2 .next {
+  letter-spacing: 0px;
+  min-height: 19px;
+  min-width: 40px;
+}
+.form-step2 .overlap-group {
+  height: 120px;
+  margin-top: 30px;
+  position: relative;
+  width: 1118px;
+}
+.form-step2 .overlap-group-1 {
+  align-items: flex-start;
+  background-color: var(--ultramarine);
+  border-radius: 5px;
+  display: flex;
+  height: 87px;
+  justify-content: flex-end;
+  min-width: 156px;
+  padding: 9px 12px;
+}
+.form-step2 .overlap-group-2 {
+  align-items: flex-end;
+  background-color: var(--ultramarine);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 87px;
+  padding: 9px 12px;
+  width: 156px;
+}
+.form-step2 .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--ultramarine);
+  border-radius: 5px;
+  display: flex;
+  height: 87px;
+  justify-content: flex-end;
+  min-width: 156px;
+  padding: 9.9px 8px;
+}
+.form-step2 .overlap-group2 {
+  height: 21px;
+  margin-left: 14px;
+  position: relative;
+  width: 21px;
+}
+.form-step2 .overlap-group8 {
+  align-self: flex-end;
+  height: 31px;
+  position: relative;
+  width: 729px;
+}
+.form-step2 .philosophy {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 92px;
+  text-align: center;
+}
+.form-step2 .podcast-subject {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  margin-left: 72px;
+  min-height: 22px;
+  min-width: 115px;
+  white-space: nowrap;
+}
+.form-step2 .politics {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 63px;
+  text-align: center;
+}
+.form-step2 .previous {
+  letter-spacing: 0px;
+  min-height: 19px;
+  min-width: 71px;
+}
+.form-step2 .science {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 62px;
+  text-align: center;
+}
+.form-step2 .selection1-business {
+  align-items: flex-start;
+  display: flex;
+  height: 87px;
+  min-width: 158px;
+}
+.form-step2 .selection1-business-1 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 22px;
+  min-width: 158px;
+}
+.form-step2 .selection1-business-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 87px;
+  margin-left: 22px;
+  min-width: 158px;
+}
+.form-step2 .selection1-business-3 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 158px;
+}
+.form-step2 .sports {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 55px;
+  text-align: center;
+}
+.form-step2 .storytelling {
+  letter-spacing: 0px;
+  margin-right: 14px;
+  margin-top: 11px;
+  min-height: 19px;
+  min-width: 104px;
+  text-align: center;
+}
+.form-step2 .submit {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  margin-left: 100px;
+  min-height: 22px;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+.form-step2 .technology {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-top: 2px;
+  min-height: 19px;
+  min-width: 100px;
+  text-align: center;
+}
+.form-step2 .text-1 {
+  align-self: center;
+  letter-spacing: 0px;
+  margin-bottom: 1px;
+  min-height: 38px;
+  min-width: 82px;
+  text-align: center;
+}
+.form-step2 .text-2 {
+  letter-spacing: 0px;
+  line-height: 20.7px;
+  margin-left: 71.32px;
+  margin-top: 49px;
+  min-height: 42px;
+  min-width: 297px;
+  text-align: center;
+}
+.form-step2 .title {
+  letter-spacing: 0px;
+  line-height: 34.5px;
+  margin-left: 71.32px;
+  min-height: 34px;
+  min-width: 271px;
+  text-align: center;
+  white-space: nowrap;
+}
+.form-step2 .vector {
+  height: 8px;
+  left: 6px;
+  position: absolute;
+  top: 4px;
+  width: 10px;
+}
+.form-step2 .vector-1 {
+  height: 11px;
+  left: 9px;
+  position: absolute;
+  top: 6px;
+  width: 14px;
+}
+.form-step2 .vector-4 {
+  height: 4px;
+  left: 16px;
+  position: absolute;
+  top: 10px;
+  width: 713px;
+}
+.form-step2 .vector-5 {
+  height: 28px;
+  margin-left: 8px;
+  width: 26px;
+}
+.form-step2 .xmlid-364 {
+  height: 118px;
+  left: 0px;
+  position: absolute;
+  top: 2px;
+  width: 118px;
+  opacity: 0.6;
+}
+.form-step2 .xmlid-365 {
+  height: 58px;
+  margin-bottom: 221px;
+  margin-left: 42px;
+  width: 58px;
+  opacity: 0.6;
+}
+.form-step2 .your-information {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  min-height: 22px;
+  min-width: 121px;
+  text-align: center;
+  white-space: nowrap;
+}
+:root {
+  --dark-blue: rgba(12, 12, 196, 0.95);
+  --royal-blue: rgba(73, 73, 255, 1);
+  --ultramarine: rgba(14, 14, 159, 1);
+  --white: rgba(255, 255, 255, 0.9);
+}
+a {
+  text-decoration: none;
+  display: contents;
+}

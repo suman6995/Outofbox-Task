@@ -1,0 +1,517 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+* {
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color:black;
+  font-weight: 800;
+}
+.avenir-black-white-30px {
+  color: white;
+  font-family: "Avenir-Black", Helvetica;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+}
+.avenir-book-normal-white-14px {
+  color: white;
+  font-family: "Avenir-Book", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-heavy-normal-black-14px {
+  color: black;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-heavy-normal-white-14px {
+  color: white;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-heavy-normal-white-15px {
+  color: var(--white);
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-heavy-normal-white-15px-2 {
+  color: white;
+  font-family: "Avenir-Heavy", Helvetica;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.avenir-medium-white-18px {
+  color: white;
+  font-family: "Avenir-Medium", Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+}
+.border-1px-royal-blue {
+  border: 1px solid var(--royal-blue);
+}
+.border-class-1 {
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+.form-step4 {
+  -webkit-backdrop-filter: blur(15px) brightness(100%);
+  align-items: flex-end;
+  backdrop-filter: blur(15px) brightness(100%);
+  background-color: var(--dark-blue);
+  display: flex;
+  flex-direction: column;
+  height: 693px;
+  padding: 43px 86px;
+  width: 1440px;
+}
+.form-step4 .close {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  min-height: 22px;
+  min-width: 41px;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+.form-step4 .editing-mixing {
+  letter-spacing: 0px;
+  min-height: 19px;
+}
+.form-step4 .ellipse-2 {
+  height: 27px;
+  left: 560px;
+  position: absolute;
+  top: 2px;
+  width: 27px;
+}
+.form-step4 .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 51px;
+  min-height: 543px;
+  width: 826px;
+}
+.form-step4 .flex-row {
+  align-items: center;
+  display: flex;
+  height: 543px;
+  margin-right: 6px;
+  margin-top: 8px;
+  min-width: 1218px;
+}
+.form-step4 .flex-row-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 22px;
+  margin-right: 8px;
+  margin-top: 16px;
+  min-width: 818px;
+}
+.form-step4 .flex-row-2 {
+  align-items: flex-start;
+  display: flex;
+  height: 31px;
+  margin-left: 29.78px;
+  margin-top: -1px;
+  min-width: 760px;
+}
+.form-step4 .flex-row-3 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 22px;
+  margin-top: 27px;
+  min-width: 404px;
+}
+.form-step4 .frame-5 {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  height: 49px;
+  margin-left: 32px;
+  overflow: hidden;
+  padding: 0 64.5px;
+  width: 186px;
+}
+.form-step4 .frame-6 {
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  height: 49px;
+  overflow: hidden;
+  padding: 0 56.5px;
+  width: 186px;
+}
+.form-step4 .full-production {
+  letter-spacing: 0px;
+  min-height: 19px;
+  width: 173px;
+}
+.form-step4 .googlepodcasts-badge200x200-1 {
+  height: 41px;
+  margin-left: 12px;
+  margin-top: 0px;
+  object-fit: cover;
+  width: 41px;
+}
+.form-step4 .group {
+  align-items: flex-start;
+  display: flex;
+  height: 18px;
+  justify-content: center;
+  min-width: 27px;
+}
+.form-step4 .group-23 {
+  align-items: flex-start;
+  display: flex;
+  height: 144px;
+  left: 0px;
+  min-width: 768px;
+  position: absolute;
+  top: 40px;
+}
+.form-step4 .group-24 {
+  align-items: flex-start;
+  display: flex;
+  margin-left: 16px;
+  margin-top: 12px;
+  min-width: 768px;
+}
+.form-step4 .group-25 {
+  align-items: center;
+  display: flex;
+  height: 44px;
+  left: 544px;
+  min-width: 192px;
+  position: absolute;
+  top: 52px;
+}
+.form-step4 .group-5 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 31px;
+  min-height: 68px;
+  width: 826px;
+}
+.form-step4 .itunes-macos-icon-240-1 {
+  height: 44px;
+  margin-left: 5px;
+  object-fit: cover;
+  width: 44px;
+}
+.form-step4 .language {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  margin-left: 100px;
+  min-height: 22px;
+  min-width: 71px;
+  white-space: nowrap;
+}
+.form-step4 .looking-for {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  margin-left: 100px;
+  min-height: 22px;
+  min-width: 87px;
+  white-space: nowrap;
+}
+.form-step4 .overlap-group {
+  height: 184px;
+  margin-left: 16px;
+  margin-top: 49px;
+  position: relative;
+  width: 768px;
+}
+.form-step4 .overlap-group-1 {
+  align-items: flex-start;
+  background-image: url(images/we.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 31px;
+  justify-content: flex-end;
+  margin-bottom: -8px;
+  min-width: 31px;
+  padding: 5.9px 8px;
+}
+.form-step4 .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--ultramarine);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 89px;
+  padding: 20px 71px;
+  width: 768px;
+}
+.form-step4 .overlap-group1-1 {
+  height: 144px;
+  position: relative;
+  width: 772px;
+}
+.form-step4 .overlap-group2 {
+  align-items: flex-end;
+  background-image: url(images/SG.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  margin-top: -0.36px;
+  min-width: 40px;
+  padding: 10.8px 6px;
+}
+.form-step4 .overlap-group2-1 {
+  align-items: flex-start;
+  background-color: var(--ultramarine);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  min-height: 144px;
+  padding: 21px 66.7px;
+  width: 768px;
+}
+.form-step4 .overlap-group3 {
+  align-items: flex-end;
+  background-image: url(images/E6.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 40px;
+  justify-content: flex-end;
+  margin-left: 8px;
+  margin-top: 1.57px;
+  min-width: 40px;
+  padding: 6.5px 6.5px;
+}
+.form-step4 .overlap-group4 {
+  height: 19px;
+  margin-top: -0.27px;
+  position: relative;
+  width: 28px;
+}
+.form-step4 .overlap-group5 {
+  height: 89px;
+  position: relative;
+  width: 772px;
+}
+.form-step4 .overlap-group6 {
+  align-self: flex-end;
+  height: 29px;
+  position: relative;
+  width: 725px;
+}
+.form-step4 .podcast-subject {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  margin-left: 72px;
+  min-height: 22px;
+  min-width: 115px;
+  white-space: nowrap;
+}
+.form-step4 .previous {
+  letter-spacing: 0px;
+  min-height: 19px;
+  min-width: 71px;
+}
+.form-step4 .rectangle-16 {
+  border-radius: 3px;
+  height: 17px;
+  left: 32px;
+  position: absolute;
+  top: 24px;
+  width: 17px;
+}
+.form-step4 .rectangle-26 {
+  border-radius: 3px;
+  height: 17px;
+  left: 32px;
+  position: absolute;
+  top: 23px;
+  width: 17px;
+}
+.form-step4 .saavn-icon-logo-bcc-seeklogo-1 {
+  height: 26px;
+  object-fit: cover;
+  width: 26px;
+}
+.form-step4 .selection1-business {
+  align-items: flex-start;
+  display: flex;
+  height: 144px;
+  left: 0px;
+  min-width: 772px;
+  position: absolute;
+  top: 0px;
+}
+.form-step4 .selection1-business-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 89px;
+  left: 0px;
+  min-width: 772px;
+  position: absolute;
+  top: 0px;
+}
+.form-step4 .sign-completed {
+  align-items: flex-end;
+  display: flex;
+  height: 23px;
+  justify-content: center;
+  left: 383px;
+  min-width: 23px;
+  position: absolute;
+  top: 0px;
+}
+.form-step4 .sign-completed-1 {
+  align-items: flex-end;
+  display: flex;
+  height: 23px;
+  justify-content: center;
+  left: 0px;
+  min-width: 23px;
+  position: absolute;
+  top: 0px;
+}
+.form-step4 .sign-completed-2 {
+  align-items: flex-end;
+  display: flex;
+  height: 23px;
+  justify-content: center;
+  left: 190px;
+  min-width: 23px;
+  position: absolute;
+  top: 0px;
+}
+.form-step4 .spotify-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 39px;
+  justify-content: center;
+  margin-top: 1.57px;
+  overflow: hidden;
+  width: 39px;
+}
+.form-step4 .submit {
+  letter-spacing: 0px;
+  min-height: 19px;
+  min-width: 55px;
+  text-align: center;
+}
+.form-step4 .submit-1 {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  margin-left: 100px;
+  min-height: 22px;
+  opacity: 0.45;
+  white-space: nowrap;
+}
+.form-step4 .text-1 {
+  letter-spacing: 0px;
+  line-height: 21px;
+  margin-left: 0.28px;
+  margin-top: 8px;
+  min-height: 73px;
+  width: 462px;
+}
+.form-step4 .text-2 {
+  letter-spacing: 0px;
+  line-height: 18.9px;
+  margin-top: 7px;
+  min-height: 19px;
+  white-space: nowrap;
+}
+.form-step4 .text-3 {
+  left: 292px;
+  letter-spacing: 0px;
+  line-height: 20.7px;
+  position: absolute;
+  text-align: center;
+  top: 0px;
+}
+.form-step4 .title {
+  letter-spacing: 0px;
+  line-height: 34.5px;
+  margin-left: 25px;
+  min-height: 34px;
+  min-width: 271px;
+  text-align: center;
+  white-space: nowrap;
+}
+.form-step4 .vector {
+  height: 7px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  width: 22px;
+}
+.form-step4 .vector-1 {
+  height: 11px;
+  width: 14px;
+}
+.form-step4 .vector-2 {
+  height: 8px;
+  left: 1px;
+  position: absolute;
+  top: 6px;
+  width: 25px;
+}
+.form-step4 .vector-3 {
+  height: 7px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 28px;
+}
+.form-step4 .vector-4 {
+  height: 4px;
+  left: 12px;
+  position: absolute;
+  top: 10px;
+  width: 713px;
+}
+.form-step4 .vector-5 {
+  height: 28px;
+  margin-left: 8px;
+  width: 26px;
+}
+.form-step4 .xmlid-364 {
+  align-self: flex-end;
+  height: 118px;
+  margin-bottom: 74.32px;
+  width: 118px;
+  opacity: 0.6;
+}
+.form-step4 .xmlid-365 {
+  height: 58px;
+  margin-bottom: 221px;
+  margin-left: 165px;
+  width: 58px;
+  opacity: 0.6;
+}
+.form-step4 .your-information {
+  letter-spacing: 0px;
+  line-height: 21.8px;
+  min-height: 22px;
+  min-width: 121px;
+  text-align: center;
+  white-space: nowrap;
+}
+:root {
+  --dark-blue: rgba(12, 12, 196, 0.95);
+  --royal-blue: rgba(73, 73, 255, 1);
+  --ultramarine: rgba(14, 14, 159, 1);
+  --white: rgba(255, 255, 255, 0.9);
+}
+a {
+  text-decoration: none;
+  display: contents;
+}
